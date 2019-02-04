@@ -1,0 +1,7 @@
+<div class="product-container">
+  <div class="name">{{product.name}}</div>
+  <div class="price"
+  [class]="product.isOnSale() ? 'positive' : 'negative'">
+${{product.price}}</div>
+
+
